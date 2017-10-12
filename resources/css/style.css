@@ -1,17 +1,13 @@
-/*Delete after layout is done */
-
-/*
-div {
-	border: 1px solid black;
-} 
-*/
-
-
-/*Header*/
+/* Body */
 
 body {
-  margin: 0;
+	margin: 0;
+	font-family: Georgia, sans-serif;;
+	font-size: 17px;
+	color: black;
 }
+
+/*Header*/
 
 header {
 	display: flex;
@@ -97,8 +93,10 @@ nav span {
   	height: 300px;
   	margin-top: 15px;
   	text-align: center;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 }
-
 
 .lead-story .img-content {
 	font-size: 40px;
@@ -108,10 +106,13 @@ nav span {
 	margin-top: 0
 }
 
+.lead-story .img-content span {
+	margin-left: 20px;
+}
+
 .lead-story .summary {
 	font-size: 17px;
 }
-
 
 .earth-story.img-content {
 	background-image: url('../images/img-story-2.png');
@@ -129,17 +130,12 @@ nav span {
 
 /* Text and Story layout */
 
-.text-content p,
-.summary p {
-  font-family: Georgia, sans-serif;;
-  font-size: 17px;
-  color: black;
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Georgia, serif;
+	font-size: 30px;
 }
-
-.caps {
-	text-transform: uppercase;
-}
-
 
 .story {
 	display: flex;
@@ -159,6 +155,10 @@ nav span {
 
 .small-stories .text-content {
   height: 250px;
+}
+
+.caps {
+	text-transform: uppercase;
 }
 
 
