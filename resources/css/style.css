@@ -97,6 +97,7 @@ nav span {
 }
 
 
+
 .lead-story .img-content {
 	font-size: 40px;
 	background-image: url('../images/img-story-main.png');
@@ -104,7 +105,6 @@ nav span {
 	text-align: left;
 	margin-top: 0
 }
-
 
 
 .orca-story .img-content {
@@ -129,34 +129,10 @@ nav span {
 }
 
 
-/* Old */
-
-
-
-
-/* 
-
-body  {
-  margin: 0px;
-  border: 0;
-}
-.lead-story p {
-	font-family: Georgia, sans-serif;
-  	font-size: 17px;
-  	color: black;
+.text-content {
+  font-family: Georgia, sans-serif;;
+  font-size: 17px;
+  color: black;
 }
 
 
-.story {
-	font-family: Georgia, sans-serif;
-  	font-size: 17px;
-  	color: black;
-}
-
-
-.story h1 {
-	display: flex;
-}
-
-
-*/ 
